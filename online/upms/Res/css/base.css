@@ -1,0 +1,24 @@
+/* 全局框架*/
+.body{font-family: Arial, "Microsoft YaHei", "微软雅黑", sans-serif;font-size:13px; padding:0px; margin:0 auto;}
+.bednav{padding:10px 20px 0px 15px; background-color:#F5F5F5; color:#4c8fbd;min-height:30px;}
+.welcome_txt{margin:0;padding:150px 0;font-size:32px; font-weight:bold;text-align:center;}
+.main_cont{padding:20px 0 35px 15px;}
+
+/* 调整layui 默认表格高度*/
+.layui-table td{ padding:3px 8px; font-size:12px;} 
+.layui-table input {max-height:28px;}
+.layui-table .sign {color:red;padding-left:10px;}
+
+/* 自定义行级表单宽度*/
+.dateinput {width:120px;}
+
+/*分页位置*/
+.spages{text-align:right;padding:10px 40px 10px 0px; height:50px;}
+
+/*无数据提示信息*/
+.nodatanotice{height:140px;background:url(../images/nodata.jpg) no-repeat center #FFFFFF;}
+
+.layui-elem-quote span{ display:inline-block;line-height:25px;}
+
+.layui-elem-quote p{ padding:3px 0px 3px 0px;}
+.layui-elem-quote .item{ color:#FF5722; font-weight:bold;}

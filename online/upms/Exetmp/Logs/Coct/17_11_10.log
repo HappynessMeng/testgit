@@ -1,0 +1,329 @@
+[ 2017-11-10T11:33:39+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-10T11:33:56+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-10T11:33:56+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'crm2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1510284836',`lasttime`='1510278068' WHERE `id` = 10002 [ RunTime:0.0320s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-10T11:33:56+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/gjvaqf9ln9v89eukfp4o009kn4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2017-11-10T11:43:57+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-10T11:44:04+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-11-10T11:44:04+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'crm2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1510285444',`lasttime`='1510284836' WHERE `id` = 10002 [ RunTime:0.0323s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-10T11:44:04+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/jreq5dj7203kc5eelaq352s812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-11-10T11:51:50+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-10T11:52:02+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-11-10T11:52:02+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'crm2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1510285922',`lasttime`='1510285444' WHERE `id` = 10002 [ RunTime:0.0240s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-10T11:52:02+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/fpbccm0ou1vre5ed3u1nrh87p5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-11-10T11:59:30+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-10T11:59:37+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-10T11:59:37+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'crm2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1510286377',`lasttime`='1510285922' WHERE `id` = 10002 [ RunTime:0.0343s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-10T11:59:37+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/cnat3ebavcsta7kfspmots4284
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-11-10T13:00:33+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-11-10T13:00:41+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-11-10T13:00:41+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'crm2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1510290041',`lasttime`='1510286377' WHERE `id` = 10002 [ RunTime:0.0319s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-10T13:00:41+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/q7gpla1f3ie9pm31nbmvn9fph3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-11-10T13:40:56+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-10T13:41:04+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-10T13:41:04+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'crm2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1510292464',`lasttime`='1510290041' WHERE `id` = 10002 [ RunTime:0.0282s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-11-10T13:41:04+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/gafotlo8clpd6akd65l7rdumu7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-11-10T15:43:30+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-11-10T15:43:37+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-11-10T15:43:37+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'crm2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1510299817',`lasttime`='1510292464' WHERE `id` = 10002 [ RunTime:0.0264s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-10T15:43:37+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/ciflrs5j8m75mt1luuqd66h3l3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+

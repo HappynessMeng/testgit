@@ -1,0 +1,47 @@
+[ 2018-02-08T14:32:47+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0075s ]
+
+[ 2018-02-08T14:32:57+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0067s ]
+
+[ 2018-02-08T14:32:57+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0109s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2015095825',`currenttime`='1518071577',`lasttime`='1518052786' WHERE `id` = 10003 [ RunTime:0.0204s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10003 LIMIT 1   [ RunTime:0.0098s ]
+
+[ 2018-02-08T14:32:57+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/7pbj37iuc6rmnuh0qjhblf9uf1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+

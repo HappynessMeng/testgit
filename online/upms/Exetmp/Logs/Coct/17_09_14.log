@@ -1,0 +1,588 @@
+[ 2017-09-14T11:54:57+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-09-14T11:55:11+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'E5pZdva3HVDHfCJmcOdnVfTHoKZNsW2a' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T11:55:11+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'crm2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1505361311',`lasttime`='1505358438' WHERE `id` = 10002 [ RunTime:0.0203s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-14T11:55:11+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/59nmvht8o631l4ghe4gqctupl6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-09-14T12:06:08+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-14T12:06:08+08:00 ] 127.0.0.1 /index.php/Coct/Sso/islogin/sessid/59nmvht8o631l4ghe4gqctupl6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-09-14T12:06:21+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-14T12:06:27+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-09-14T12:06:48+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-14T12:07:01+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:07:01+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1505362021',`lasttime`='1505273759' WHERE `id` = 10003 [ RunTime:0.0222s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10003 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-14T12:07:01+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/v61oi3fl9diljb829lkuv11uu7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2017-09-14T12:10:43+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-14T12:11:07+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:11:07+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1505362267',`lasttime`='1505362021' WHERE `id` = 10003 [ RunTime:0.0362s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10003 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-14T12:11:07+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/2ntupmkd8n8s5reru091rpv5m2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-09-14T12:13:26+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:13:42+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-09-14T12:13:42+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-09-14T12:13:49+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-14T12:13:49+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-14T12:13:50+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:13:50+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-09-14T12:13:50+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:13:51+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-09-14T12:14:04+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:14:04+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-14T12:14:14+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:14:14+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-14T12:14:15+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:14:15+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-14T12:14:15+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:14:15+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-14T12:14:15+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-09-14T12:14:15+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-09-14T12:14:16+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T12:14:16+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-14T13:41:28+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-14T13:41:29+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-09-14T13:41:45+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T13:41:45+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-14T13:41:46+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T13:41:46+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '528767d20ebfc382768883d31358a6c1' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-14T14:08:31+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-14T14:08:49+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-09-14T14:08:49+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1505369329',`lasttime`='1505362267' WHERE `id` = 10003 [ RunTime:0.0194s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10003 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-09-14T14:08:49+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/pcnuppv67oac9itvgj9kvauud1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-09-14T14:19:20+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-09-14T14:19:29+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-14T14:19:29+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002284s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2130706433',`currenttime`='1505369969',`lasttime`='1505369329' WHERE `id` = 10003 [ RunTime:0.0313s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10003 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-14T14:19:29+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/vf0h6f3arp92719mdicdp6frg7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-09-14T14:20:36+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2] session_destroy(): Trying to destroy uninitialized session E:\online\upms\Frame\Common\functions.php 第 1276 行.
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-09-14T14:20:37+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-09-14T14:20:57+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-14T14:21:08+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0006s ]
+

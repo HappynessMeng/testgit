@@ -1,0 +1,105 @@
+[ 2018-03-15T11:17:38+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007662s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0114s ]
+
+[ 2018-03-15T11:17:44+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2018-03-15T11:17:44+08:00 ] 127.0.0.1 /index.php/Coct/Sso/pclogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `c_useracc` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `c_useracc` WHERE `alias` = 'fk2018' AND `password` = '2a4b2f5aa3202c7253a82716591f3f00' LIMIT 1   [ RunTime:0.0117s ]
+SQL: UPDATE `c_useracc` SET `currentip`='2130706433',`lastip`='2015095825',`currenttime`='1521083864',`lasttime`='1521017933' WHERE `id` = 10003 [ RunTime:0.0183s ]
+NOTIC: [2] unlink(./Exetmp/Temp/7653f5ee126f72b5dc92978036145d82.php): No such file or directory E:\online\upms\Frame\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT * FROM `c_useracc` WHERE `id` = 10003 LIMIT 1   [ RunTime:0.0077s ]
+
+[ 2018-03-15T11:17:44+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/1/sessid/p2a6c2tv8u46kun9l2tb2ft5d4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006502s ]
+
+[ 2018-03-15T11:38:54+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+NOTIC: [2] session_destroy(): Trying to destroy uninitialized session E:\online\upms\Frame\Common\functions.php 第 1276 行.
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2018-03-15T11:38:55+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0102s ]
+
+[ 2018-03-15T11:38:55+08:00 ] 127.0.0.1 /index.php/Coct/Sso/islogin/sessid/p2a6c2tv8u46kun9l2tb2ft5d4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-03-15T11:38:58+08:00 ] 127.0.0.1 /index.php/Coct/Sso/p3psave/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [2] session_destroy(): Trying to destroy uninitialized session E:\online\upms\Frame\Common\functions.php 第 1276 行.
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `c_pms_system`  [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: response E:\online\upms\App\Coct\Controller\SsoController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-03-15T11:38:58+08:00 ] 127.0.0.1 /index.php/Coct/Sso/systemstatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `c_pms_system` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `c_pms_system` WHERE `secret` = 'xecabIBW4WrIN1Ul0YM2LDDotFQak4zu' LIMIT 1   [ RunTime:0.0066s ]
+
